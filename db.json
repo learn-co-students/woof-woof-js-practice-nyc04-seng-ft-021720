@@ -27,14 +27,16 @@
     {
       "id": 5,
       "name": "Lucipher",
-      "isGoodDog": false,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg"
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg",
+      "goodBoy": false
     },
     {
       "id": 6,
       "name": "Snooper Pooper",
-      "isGoodDog": false,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg"
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg",
+      "goodBoy": false
     },
     {
       "id": 7,
