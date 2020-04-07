@@ -13,7 +13,7 @@ WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
 ## EXAMPLE:
 ![Showcasing the full functionality](woof-woof-demo.gif)
 
-### STEP 1: VIEW THE DATA
+<!-- ### STEP 1: VIEW THE DATA
 
 All of the dog data is stored in the `db.json` file. You'll want to access this data
 using a json server. In order to do this, run `$ npm install -g json-server` and
@@ -26,13 +26,13 @@ Familiarize yourself with the attributes for each pup. Try going to `/pups/:id` 
 ### STEP 2: ADD PUPS TO DOG BAR
 On the page, there is a `div` with the id of `"dog-bar"`. On page load, make a fetch
 to get all of the pup objects. When you have this information, you'll need to add
-a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`).
+a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`). -->
 
-### STEP 3: SHOW MORE INFO ABOUT EACH PUP
-When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
+<!-- <!-- ### STEP 3: SHOW MORE INFO ABOUT EACH PUP -->
+<!-- When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
 When you have the pup's information, the dog info `div` should have the following children:
  - an `img` tag with the pup's image url
- - an `h2` with the pup's name
+ - an `h2` with the pup's name -->
  - a `button` that says `"Good Dog!"` or `"Bad Dog!"` based on whether `isGoodDog` is true or false.
  Ex:
  ```
